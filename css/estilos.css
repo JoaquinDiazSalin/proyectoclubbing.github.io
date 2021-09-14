@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.proyectoClub {
+  height: 100vh;
+  background-image: url("../images/bgInicio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .proyectoClub h1 {
+    text-shadow: -15px 5px 20px #ced0d3dc;
+    color: white;
+    font-family: "Anton", Arial, sans-serif;
+    user-select: none; }
+
+.gridContainer img {
+  max-width: 100%; }
+
+.gridContainer p {
+  text-align: justify; }
+
+table {
+  background: radial-gradient(circle, #f5c2d8 0%, #e5faff 100%); }
+
+.containerForm {
+  width: 300px;
+  display: grid; }
+
+.containerForm .btnContainer {
+  text-align: center; }
+
+.fuente-terciaria {
+  background-color: #0e0d0d;
+  width: 65%;
+  padding: 0.7rem;
+  text-align: center;
+  color: greenyellow; }
+
+.containerFechas {
+  background-color: #ffff00;
+  width: 65%;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 3%; }
+  .containerFechas p {
+    margin: 0;
+    color: black;
+    position: relative;
+    padding: 0.7rem; }
+    .containerFechas p:hover {
+      background-color: #0e0d0d;
+      color: white; }
+    .containerFechas p span {
+      position: absolute;
+      right: 40%; }
+    .containerFechas p strong {
+      position: absolute;
+      right: 1rem;
+      cursor: pointer; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: "Bebas Neue", cursive; }
+
+.navbar {
+  background-color: black; }
+  .navbar li a:hover {
+    background-color: #4B4B4B; }
+
+#logo {
+  max-width: 110px;
+  filter: invert(1); }

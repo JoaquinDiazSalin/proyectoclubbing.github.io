@@ -1,0 +1,13 @@
+.proyectoClub {
+  height: 100vh;
+  background-image: url("../images/bgInicio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  h1 {
+    text-shadow: -15px 5px 20px #ced0d3dc;
+    color: white;
+    font-family: "Anton", Arial, sans-serif;
+    user-select: none;
+  }
+}

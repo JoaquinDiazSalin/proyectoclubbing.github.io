@@ -1,0 +1,28 @@
+@import 'pages/index';
+@import 'pages/noticias';
+@import 'pages/membresia';
+@import 'pages/contacto';
+@import 'pages/agenda';
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Bebas Neue", cursive;
+}
+
+.navbar {
+  background-color: black;
+  li a:hover   {
+    background-color: #4B4B4B;
+  }
+}
+
+#logo {
+  max-width: 110px;
+  filter: invert(1);
+}
